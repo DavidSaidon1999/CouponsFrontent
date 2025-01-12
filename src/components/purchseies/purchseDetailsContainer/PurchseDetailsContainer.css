@@ -1,0 +1,57 @@
+
+
+.purchase-table {
+    width: 100%;
+    border-collapse: collapse; /* מסדר את הגבולות כך שלא יהיו כפולים */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* צל לכל הטבלה */
+    border-radius: 8px; /* פינות מעוגלות */
+    background-color: #fff;
+}
+
+.purchase-table th, .purchase-table td {
+    border: 1px solid #ddd; /* קביעת גבולות לכל התאים */
+    padding: 12px;
+    text-align: left;
+}
+
+.purchase-table th {
+    background-color: #4CAF50; /* צבע רקע לכותרת */
+    color: white; /* צבע טקסט לבן */
+    font-size: 18px; /* גודל טקסט גדול יותר */
+    font-weight: bold; /* עושה את הטקסט מודגש */
+    letter-spacing: 1px; /* ריווח בין האותיות */
+    text-transform: uppercase; /* הופך את הטקסט לאותיות גדולות */
+    padding-top: 16px; /* מרווח מלמעלה */
+    padding-bottom: 16px; /* מרווח מלמטה */
+}
+
+.purchase-table td {
+    background-color: #f9f9f9; /* צבע רקע לתאים */
+}
+
+.purchase-table tr:nth-child(even) td {
+    background-color: #f1f1f1; /* צבע רקע שונה לשורות זוגיות */
+}
+
+.purchase-table tr:hover td {
+    background-color: #e9e9e9; /* צבע רקע לשורת עכבר */
+    cursor: pointer; /* משנה את העכבר כאשר הוא עובר מעל השורה */
+}
+
+.purchase-table img {
+    width: 50px; /* גודל התמונה בתא */
+    height: auto;
+    border-radius: 4px; /* פינות מעוגלות לתמונה */
+}
+
+.purchase-table td {
+    font-size: 14px; /* גודל טקסט קטן יותר לתאים */
+}
+
+.purchase-container h2 {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}

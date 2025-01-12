@@ -1,0 +1,49 @@
+/* הגדרות כלליות לעמוד */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #eaeaea; /* צבע רקע */
+    display: flex;
+    justify-content: center; /* יישור אופקי */
+    align-items: center; /* יישור אנכי */
+}
+
+/* הקופון */
+.SingleCoupon {
+    width: 90%; /* מתאים ל-90% מרוחב המסך */
+    max-width: 400px; /* רוחב מקסימלי */
+    min-width: 250px; /* רוחב מינימלי */
+    min-height: 350px; /* גובה מינימלי אחיד */
+
+    height: auto; /* גובה אוטומטי לפי התוכן */
+    padding: 20px; /* ריווח פנימי */
+    background: #f4f4f4;
+    border-radius: 10px; /* פינות מעוגלות */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* צל */
+    text-align: center;
+    overflow: hidden; /* מניעת גלילה פנימית */
+    box-sizing: border-box; /* להתחשב בריווח בחישוב הגודל */
+}
+
+/* תמונת הקופון */
+.single-coupon-image {
+    width: 100%; /* תמונה ברוחב מלא של הקופון */
+    height: 150px; /* גובה אחיד */
+    max-height: none; /* ביטול מגבלת הגובה */
+    object-fit: cover; /* שמירה על יחס ממדים */
+    border-radius: 8px;
+    margin-bottom: 10px; /* רווח מתחת לתמונה */
+}
+
+.SingleCoupon button{
+    padding: 10px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px; /* רווח בין הכפתורים לתוכן שמעל */
+}

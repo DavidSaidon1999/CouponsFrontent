@@ -1,0 +1,14 @@
+.CouponsContainer {
+    display: flex; /* Align all items in a row */
+    flex-wrap: nowrap; /* Prevent wrapping to the next line */
+    justify-content: space-evenly; /* Add spacing between the coupons */
+    align-items: center; /* Vertically center coupons */
+    color: #fff; /* White text */
+    font-family: 'Arial', sans-serif; /* Match the previously used font */
+    margin: 50px auto; /* Center the container vertically and horizontally */
+    width: 90%; /* Set width for the container */
+    max-width: 100%; /* Limit the container width */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    justify-content:space-between;
+}
+

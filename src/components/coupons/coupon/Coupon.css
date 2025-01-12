@@ -1,0 +1,52 @@
+.Coupon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5c5a5a; /* צבע רקע */
+    border-radius: 10px; /* פינות עגולות */
+    width: 250px; /* רוחב אחיד */
+    min-height: 400px; /* גובה מינימלי אחיד */
+    padding: 15px; /* רווח פנימי */
+    color: #fff; /* צבע טקסט */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* צל להדגשה */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* אנימציה */
+    margin: 0 10px; /* רווח בין הקופונים */
+    cursor: pointer; /* משנה את צורת העכבר ליד */
+
+}
+
+.Coupon img {
+    width: 100%; /* התמונה ממלאת את כל הרוחב */
+    height: 150px; /* גובה אחיד לתמונה */
+    object-fit: cover; /* שמירה על יחס תמונה */
+    border-radius: 8px; /* פינות עגולות */
+    margin-bottom: 10px;
+}
+
+.Coupon .coupon-price{
+    color: rgb(218, 95, 95);
+}
+.Coupon .coupon-details {
+    flex-grow: 1; /* מאפשר פריסה של התוכן */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.Coupon .coupon-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Coupon .coupon-description {
+    font-size: 14px;
+    color: #ccc;
+    flex-grow: 1; /* מתיחה של התיאור */
+    overflow: hidden; /* הסתרת תוכן חורג */
+    text-overflow: ellipsis; /* שלוש נקודות במקרה שהתוכן חורג */
+    display: -webkit-box; /* יצירת שורות מוגבלות */
+    -webkit-line-clamp: 3; /* הגבלה ל-3 שורות */
+    -webkit-box-orient: vertical;
+}

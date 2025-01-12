@@ -1,0 +1,31 @@
+/* User.css */
+.User td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd; /* מסגרת מסביב לתאים */
+    font-size: 14px;
+}
+
+.User {
+    background-color: #f9f9f9; /* רקע בהיר */
+    transition: background-color 0.2s ease-in-out; /* אנימציה למעבר רקע */
+}
+
+.User:hover {
+    background-color: #f1f1f1; /* שינוי רקע בהובר */
+}
+
+.delete-btn {
+    background-color: red; /* צבע רקע */
+    color: white; /* צבע טקסט */
+    border: none; /* ללא מסגרת */
+    padding: 5px 10px; /* ריווח פנימי */
+    cursor: pointer; /* סמן מצביע */
+    font-size: 14px; /* גודל טקסט */
+    border-radius: 5px; /* עיגול פינות */
+    transition: background-color 0.2s ease-in-out; /* אנימציה להובר */
+}
+
+.delete-btn:hover {
+    background-color: darkred; /* צבע רקע כהה יותר בהובר */
+}
